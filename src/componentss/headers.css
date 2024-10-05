@@ -1,0 +1,35 @@
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #212529;
+    padding: 25px;
+    align-items: center;
+}
+.nav_items{
+    display: flex;
+    gap: 20px;
+}
+.nav_items a,li{
+    /* color: linear-gradient(90deg, #8140E4 4.06%, #2190ED 31.42%, #6556A7 68.67%, #FF2A71 106.18%); */
+    color: #FFFFFF; 
+    text-decoration: none;
+}
+.concept{
+    color: #fff;
+    font-size: 40px;
+}
+.nav_items li:hover{
+    /* color: linear-gradient(90deg, #8140E4 4.06%, #2190ED 31.42%, #6556A7 68.67%, #FF2A71 106.18%) border-box; */
+    /* background: linear-gradient(90deg, #8140E4 4.06%, #2190ED 31.42%, #6556A7 68.67%, #FF2A71 106.18%) border-box; */
+    background: linear-gradient(90deg, #8140E4 4.06%, #2190ED 31.42%, #6556A7 68.67%, #FF2A71 106.18%) border-box;;
+    background-clip:text; 
+    color: transparent;
+    background-size: cover; 
+}
+button{
+    background: linear-gradient(90deg, #8140E4 4.06%, #2190ED 31.42%, #6556A7 68.67%, #FF2A71 106.18%) border-box;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+}
